@@ -26,7 +26,7 @@ app.add_middleware(
 
 @app.get("/")
 def index():
-    return {"message": "Welcome to Shaed's New ML Project"}
+    return {"message": "Welcome to Shaed's House Price Prediction ML Project"}
 
 
 @app.post("/house-price-prediction")
