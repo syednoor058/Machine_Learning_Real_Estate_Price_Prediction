@@ -4,4 +4,4 @@ pydantic
 pandas
 requests
 pypi-json 
-sklearn
+scikit-learn==1.2.2
