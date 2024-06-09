@@ -12,7 +12,7 @@ from House_Details import House_Detail
 app = FastAPI()
 
 origins = [
-    "http://localhost:5173"
+    "https://house-price-prediction-five.vercel.app"
 ]
 
 app.add_middleware(
