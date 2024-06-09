@@ -28,7 +28,7 @@ export default function Banner() {
       </div>
       <div className="w-full h-full lg:w-2/5 lg:pl-10 flex justify-center items-center">
         <img
-          className="w-[400px] h-auto"
+          className="w-[250px] lg:w-[400px] h-auto"
           src={bannerHouseImg}
           alt="banner_house_image"
         />

@@ -75,7 +75,7 @@ export default function WhyUs() {
           </div>
           <div className="w-full lg:w-1/3 flex justify-center items-center">
             <img
-              className="w-[400px] h-auto"
+              className="w-[250px] lg:w-[400px] h-auto"
               src={accuratePricePredictionImg}
               alt="accurate_image"
             />

@@ -29,7 +29,7 @@ export default function Predictor() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const response = await fetch(
-      "http://127.0.0.1:8000/house-price-prediction",
+      "https://house-price-prediction-api-mxg2.onrender.com/house-price-prediction",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
